@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://p756uyd6ro832ipthbxf6"]
+
+[ext_resource type="Script" path="res://Loader.gd" id="1"]
+
+[node name="Main" type="Node2D"]
+camera/path = NodePath("Camera2D")
+[node name="Root" type="Node2D"]
+position = Vector2(0, 0)
